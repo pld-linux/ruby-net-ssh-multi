@@ -2,7 +2,7 @@
 Summary:	Control multiple Net::SSH connections via a single interface
 Name:		ruby-%{pkgname}
 Version:	1.2.0
-Release:	2
+Release:	3
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
@@ -10,10 +10,6 @@ Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
 URL:		https://github.com/net-ssh/net-scp
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.665
-Requires:	ruby-mocha
-Requires:	ruby-net-ssh >= 2.6.5
-Requires:	ruby-net-ssh-gateway >= 1.2.0
-Requires:	ruby-test-unit
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
