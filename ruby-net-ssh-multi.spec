@@ -1,12 +1,12 @@
 %define pkgname net-ssh-multi
 Summary:	Control multiple Net::SSH connections via a single interface
 Name:		ruby-%{pkgname}
-Version:	1.2.0
-Release:	3
+Version:	1.2.1
+Release:	1
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
-# Source0-md5:	1c8dbed63e805bf6a663cde2c76d4b45
+# Source0-md5:	618b8f5fe6d80e6823bdf53c1d5d7c3d
 URL:		https://github.com/net-ssh/net-scp
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.665
