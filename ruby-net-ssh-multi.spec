@@ -2,7 +2,7 @@
 Summary:	Control multiple Net::SSH connections via a single interface
 Name:		ruby-%{pkgname}
 Version:	1.2.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
